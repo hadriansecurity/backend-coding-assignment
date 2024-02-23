@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Hadrian.CodingAssignment.Api/Hadrian.CodingAssignment.Api.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "docker-compose",
+            "type": "shell",
+            "command": "docker compose up --wait",
+            "problemMatcher": []
+        },
+        {
+            "label": "debug",
+            "dependsOrder": "parallel",
+            "dependsOn": [
+                "build",
+                "docker-compose"
+            ]
+        }
+    ]
+}
