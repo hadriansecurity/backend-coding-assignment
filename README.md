@@ -42,7 +42,7 @@ The port number can vary based on your system settings, see the applications con
 
 Open a terminal in the root directory of this repository and execute the following commands:
 
-- `docker compose up` (this will lau,ch a local database to use for testing purposes)
+- `docker compose up` (this will launch a local database to use for testing purposes)
 - `cd src/Hadrian.CodingAssignment.Api`
 - `dotnet run`
 
