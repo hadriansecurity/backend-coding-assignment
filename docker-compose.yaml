@@ -1,0 +1,12 @@
+services:
+
+  # Database for running locally
+  postgres:
+    image: postgres:14-bullseye
+    shm_size: 1gb
+    environment:
+      POSTGRES_USER: hadrian
+      POSTGRES_PASSWORD: hadrian
+      POSTGRES_DB: hadrian
+    ports:
+      - "5432:5432"
