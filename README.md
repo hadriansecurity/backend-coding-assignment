@@ -1,7 +1,7 @@
 # Backend Coding Assignment
-Contains the coding assignment for the backend onboarding process.
+Contains the coding assignment for the backend team onboarding process.
 
-This repository contains a foundational project structure, including API, a database models and unit test project.
+This repository contains a foundational project structure, including API, a database model and a test project.
 The task will be to add a new API endpoint for Slack integration.
 
 # Prerequisites
@@ -33,10 +33,10 @@ Open a terminal in the root directory of this repository and execute the followi
 # Running
 
 You can run the application in a few ways.
-However you run it, once its runnning, you can access the swagger docs by navigating to:
+Whichever way you run it, once its running, you can access the swagger docs by navigating to:
 
 `http://localhost:5176/swagger/index.html`
-The port number can vary based on your system settings, see the applications console output for the actual post used.
+The port number can vary based on your system settings, see the applications console output for the actual port used.
 
 ## Using the terminal
 
